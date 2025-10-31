@@ -1,7 +1,4 @@
 @charset "utf-8";
-@import url("webfonts/christmas_sparkle/stylesheet.css");
-@import url("webfonts/mexicanero/stylesheet.css");
-@import url("webfonts/birkshire/stylesheet.css");
 
 
 
@@ -18,9 +15,10 @@ wrapper {
 }
 
 header {
-	height: 150px;
+	height: 160px;
 	color: #F7DEB9;
 	background-color: #F7DEB9;
+	font-size: medium;
 }
 footer {
 	padding: 16;
@@ -43,12 +41,12 @@ ul a li {
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
 h1  {
-	font-family: "oi-regular" ;
+	font-family: "Oi", serif;
+	font-weight: 400;
 	background-color: #f7deb9;
 	color: #b98f0e;
 	font-style: italic;
-	font-weight: bold;
-	font-size: 40px;
+	font-size: 60px;
 	text-align: center
 			
 }
@@ -75,7 +73,7 @@ ul a li:hover {
 	height: 1024px;
 }
 .videos {
-	background-: 
+	background-: ;
 	width: 1366px;
 	height: 1024px;
 }
@@ -126,9 +124,3 @@ nav {
 nav ul a li {
 	color: #B98F0E;
 }
-
-
-
-
-
-
