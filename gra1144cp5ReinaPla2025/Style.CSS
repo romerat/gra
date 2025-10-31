@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import url("webfonts/christmas_sparkle/stylesheet.css");
+@import url("webfonts/mexicanero/stylesheet.css");
+@import url("webfonts/birkshire/stylesheet.css");
+
+
+
+body  {
+	padding: 0;
+	margin: 0;
+	background-color: #f7deb9;
+}
+wrapper {
+	width: 1366px;
+	margin: 0 auto;
+	display: block;
+	background-color: #F7DEB9;
+}
+
+header {
+	height: 150px;
+	color: #F7DEB9;
+	background-color: #F7DEB9;
+}
+footer {
+	padding: 16;
+	font-size: 12px;
+	background-color: #f7deb9;
+}
+nav   {
+	background-color: #F7DEB9;
+
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+ul a li {
+	display: inline-block;
+	padding: 0px 30px;
+	font-size: 25px;
+	color: #fff;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+h1  {
+	font-family: "oi-regular" ;
+	background-color: #f7deb9;
+	color: #b98f0e;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center
+			
+}
+
+ul a li:hover {
+	background-color: #EDEEC4;
+}
+
+.home {
+	background-image: url(home_page.jpg);
+	width: 1366px;
+	height: 1024px;
+}
+
+.news {
+	background-image: url(news_picture.jpg);
+	width: 1366px;
+	height: 1024px;
+}
+	
+.music {
+	background-image: url(music_picture.jpg);
+	width: 1366px;
+	height: 1024px;
+}
+.videos {
+	background-: 
+	width: 1366px;
+	height: 1024px;
+}
+
+.tour {
+	background-image: url("tour_picture.jpg");
+	width: 1366px;
+	height: 1024px;	
+}
+
+.gallery {
+	background-image: url("gallery_picture.jpg");
+	width: 1366px;
+	height: 1024px;
+}
+.email {
+	background-image: url("email_picture.jpg");
+	width: 1366px;
+	height: 1024px;
+}
+.merch {
+	background-image: url("merch_picture.jpg");
+	width: 1366px;
+	height: 1024px;
+}
+.blogs {
+	background-image: url("blogs_picture.jpg");
+	width: 1366px;
+	height: 1024px;
+}
+
+.privacy {background-image: url("privacy__picture.jpg");
+	width: 1366px;
+	height: 1024px;
+}
+
+wrapper {
+	background-color: #F7DEB9;
+}
+
+
+
+nav {
+	background-color: #F7DEB9;
+}
+
+	
+nav ul a li {
+	color: #B98F0E;
+}
+
+
+
+
+
+
