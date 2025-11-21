@@ -19,20 +19,24 @@ body {
 #Tabs1 img {
 }
 #Tabs1 div {
-	background-color: rgba(225,225,225,1.00);
 }
 wrapper {
 	width: 1366px;
+	margin: 32px auto;
+	border-radius: 16px;
+	display: block;
 }
 header {
 	background-image: url(url);
-	background-color: rgba(85,90,3,1.00);
+	background-color: rgba(17,113,23,0.41);
 }
 #Tabs1 ul {
+	border: none;
 	background-color: transparent;
+	background-image: none;
 }
 #Tabs1 ul li {
-	margin: 0;
+	margin: 0 12px;
 	background-color: transparent;
 }
 #Tabs1 ul p {
@@ -40,16 +44,55 @@ header {
 }
 #Tabs1 {
 	background-image: url(logo.png);
-	background-color: rgba(0,0,0,0.29);
+	border: none;
+	background-color: transparent;
 }
 .logo {
-	height: 75px;
+	height: 107px;
 	width: auto;
 	margin-left: 32px;
 	color: rgba(142,101,11,1.00);
 }
 footer {
 	color: rgba(248,243,243,1.00);
+	position: fixed;
+	bottom:0;
+}
+#Tabs1 li {
+	background-image: none;
+	margin: 12px;
+	text-align: center;
+	border-width: thin;
+	border-radius: 8px;
+	border-style: solid;
+}
+#Tabs1 li:hover {
+}
+#Tabs1 a {
+	color: rgba(0,179,234,1.00);
+}
+input {
+	margin: 8px;
+	padding: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: rgba(0,0,0,1.00);
+	border-radius: 8px;
+	border-width: thin;
+}
+section {
+	width: 50%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -4px;
+}
+input, select {
+	padding: 10px;
+	margin: 2px;
 }
 </style>
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
@@ -65,28 +108,49 @@ footer {
   <main>
     <div id="Tabs1">
       <ul>
-        <li><a href="#tabs-1"><img src="minivan.png" alt="" width="78" height="50">
-          <p>Transfers</p>
-        </a></li>
-        <li><a href="#tabs-2">Tab 4</a></li>
-        <li><a href="#tabs-3">Tab 5</a></li>
-        <li><a href="#tabs-4">Tab 2</a></li>
-        <li><a href="#tabs-5">Tab 3</a></li>
+        <li><a href="#tabs-1"><img src="Transfers.png" alt="" width="100" height="100"><br>
+        Transfers</a></li>
+        <li><a href="#tabs-2"><img src="rafting.png" alt="" width="100" height="100"><br>
+        Rafting</a></li>
+        <li><a href="#tabs-3"><img src="suspensionbridge.png" alt="" width="100" height="100"><br>
+        Suspension Bridge</a></li>
+        <li><a href="#tabs-4"><img src="zipline.png" alt="" width="100" height="100"><br>
+        Ziplining</a></li>
+        <li><a href="#tabs-5"><img src="cellphonecamera.png" alt="" width="100" height="100"><br>
+        Activities</a></li>
       </ul>
-      <div id="tabs-1">
-        <p>Content 1</p>
+      <div id="tabs-1">		
+		  <input type="text" placeholder="Passengers Pickup Zones">
+		  <input type="text" placeholder="Passengers Drop-off Zones">
+		  <input type="text" placeholder="Dates">
+		  <input type="text" placeholder="Number of Passengers">
+		  
+        
       </div>
       <div id="tabs-2">
-        <p>Content 4</p>
-      </div>
-      <div id="tabs-5">
-        <p>Content 5</p>
-      </div>
-      <div id="tabs-2">
-        <p>Content 2</p>
+		  <input type="text" placeholder="Passengers Pickup Zones">
+		  <input type="text" placeholder="Passengers Drop-off Zones">
+		  <input type="text" placeholder="Dates">
+		  <input type="text" placeholder="Number of Passengers">
+        
       </div>
       <div id="tabs-3">
-        <p>Content 3</p>
+         <input type="text" placeholder="Passengers Pickup Zones">
+		  <input type="text" placeholder="Passengers Drop-off Zones">
+		  <input type="text" placeholder="Dates">
+		  <input type="text" placeholder="Number of Passengers">
+      </div>
+      <div id="tabs-4">
+         <input type="text" placeholder="Passengers Pickup Zones">
+		  <input type="text" placeholder="Passengers Drop-off Zones">
+		  <input type="text" placeholder="Dates">
+		  <input type="text" placeholder="Number of Passengers">
+      </div>
+      <div id="tabs-5">
+         <input type="text" placeholder="Passengers Pickup Zones">
+		  <input type="text" placeholder="Passengers Drop-off Zones">
+		  <input type="text" placeholder="Dates">
+		  <input type="text" placeholder="Number of Passengers">
       </div>
     </div>
   </main>
